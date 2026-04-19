@@ -1,9 +1,13 @@
 {
-  "name": "{{project_name}}",
-  "slug": "{{project_slug}}",
-  "color": "{{project_color}}",
+  "name": "FlexOS",
+  "slug": "flexos",
+  "color": "#3b82f6",
   "ownerId": null,
   "ownerEmail": null,
-  "createdAt": "{{created_at}}",
-  "version": "0.1.0"
+  "createdAt": "2026-04-19",
+  "version": "0.1.0",
+  "counters": {
+    "sequence": 18,
+    "block": 6
+  }
 }

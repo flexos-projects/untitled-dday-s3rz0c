@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlexOS Prototypes Hub</title>
+  <link rel="stylesheet" href="../design/tokens.css">
+  <link rel="stylesheet" href="../design/components.css">
+  <style>
+    body { padding: 4rem 2rem; }
+    .hub-container { max-width: 800px; margin: 0 auto; }
+    .hub-title { font-size: 2rem; font-weight: 700; margin-bottom: 2rem; }
+    .hub-list { display: flex; flex-direction: column; gap: 1rem; }
+    .hub-item { padding: 1.5rem; border: 1px solid var(--color-border); border-radius: var(--radius-lg); background: var(--color-surface); }
+    .hub-item a { font-size: 1.25rem; font-weight: 600; color: var(--color-primary); }
+    .hub-item a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="hub-container">
+    <h1 class="hub-title">Prototypes Hub</h1>
+    <div class="hub-list">
+      <div class="hub-item">
+        <a href="home-v1.html">Home Page (Landing)</a>
+        <p style="margin-top: 0.5rem; color: var(--color-text-muted);">Main marketing page with hero, features, pricing.</p>
+      </div>
+      <div class="hub-item" style="opacity: 0.6;">
+        <a href="login-v1.html">Login Page</a>
+        <p style="margin-top: 0.5rem; color: var(--color-text-muted);">Authentication entry point (Pending)</p>
+      </div>
+      <div class="hub-item" style="opacity: 0.6;">
+        <a href="dashboard-v1.html">Dashboard Page</a>
+        <p style="margin-top: 0.5rem; color: var(--color-text-muted);">Workspace listing generated projects (Pending)</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
