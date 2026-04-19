@@ -1,0 +1,26 @@
+{
+  "buildId": "001-initial",
+  "projectSlug": "empty-project",
+  "status": "pending",
+  "nuxtVersion": "4",
+  "tasks": [
+    {
+      "id": "task-setup",
+      "title": "Project Setup",
+      "type": "setup",
+      "status": "pending",
+      "dependsOn": [],
+      "files": ["package.json", "nuxt.config.ts", "app.vue"]
+    },
+    {
+      "id": "task-deploy",
+      "title": "Deployment & Polish",
+      "type": "deploy",
+      "status": "pending",
+      "dependsOn": ["task-setup"],
+      "files": ["vercel.json"]
+    }
+  ],
+  "totalFiles": 4,
+  "createdAt": "2026-04-19T00:00:00Z"
+}
